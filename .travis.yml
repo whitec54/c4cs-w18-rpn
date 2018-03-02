@@ -4,6 +4,6 @@ python:
 before_install:
     - pip install coveralls
 script:
-    - coverage run py.test
+    - coverage run test_rpn.py
 after_success:
     - coveralls
